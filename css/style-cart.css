@@ -14,6 +14,7 @@ font-family: Poppins;
 
 span.your-cart{
   font-family: Montserrat ;
+  font-size: 1.5rem;
 }
 
 *,
@@ -111,7 +112,7 @@ div.row .producto img {
   align-items: center;
   margin-left: 150px;
 }
-.back img{
+.back a{
   margin: 15px;
 }
 
@@ -140,4 +141,8 @@ div.row .producto img {
   border: none;
   background-color: #000;
   color: #fff;
+}
+
+.text-arrow{
+  font-size: 1.2rem;
 }
