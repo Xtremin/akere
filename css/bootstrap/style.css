@@ -17,10 +17,14 @@ background: var(--lineal, rgba(217, 217, 217, 0.40));
 box-shadow: 10px 10px 24px 0px rgba(166, 180, 200, 0.70);
 backdrop-filter: blur(20px);
 border: 10px solid Black;
+/* background-image: url("../../assets/Vector\ 2.svg "); */
+background-size: cover;
+background-size: cover;
 }
 .nav_loader{
 display: flex;
 justify-content:space-around;
+position: static;
 }
 
 ol{
@@ -40,14 +44,16 @@ a{
 li{ 
     padding-right:40px ;
     font-family: 'Inter', sans-serif;
-    font-weight: 300;display: flex;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 .imagen_logo{
 width: 187px;
 height: 143px;
 flex-shrink: 0;
-background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 width: auto;
 }
 
@@ -67,15 +73,70 @@ li a:hover{
     color:rgb(221, 126, 30);
     margin-top: 5px; 
 }
-button{
-    background-color: transparent;
-    border: none;
-}
 
 .video_loader{
     position: fixed;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     z-index: 0;
     margin-left:10px;
+    border: none;
+}
+.search_container{
+    height: 60px;
+    width: 60px;
+    background-color:transparent;
+    margin-top: 40px;
+    position: relative;
+    transition: 0.8s;
+    overflow: hidden;
+    
+}
+.imagen_search{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    margin-top: -5px;
+    text-align: center;
+    position: fixed;
+}
+.search_container .imagen_search{
+
+    position: absolute;
+    left: 30px;
+    top: 50px;
+    transform: translate(-50%,-50%);
+}
+.search_container .imagen_search .search{
+    font-size: 21px;
+    cursor: pointer;
+    color: rgb(37, 34, 34);
+}
+
+/*activacion del search*/
+.search_container.active{
+    width: 300px;
+}
+
+.search_container .input{
+    position: relative;
+    width: 260px;
+    height: 60px;
+    left: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search_container .input input{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.23);
+    background-color: transparent;
+    font-size: 21px;
+    transition: 0.8s;
 }
