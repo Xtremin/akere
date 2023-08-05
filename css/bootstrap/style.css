@@ -17,7 +17,8 @@ background: var(--lineal, rgba(217, 217, 217, 0.40));
 box-shadow: 10px 10px 24px 0px rgba(166, 180, 200, 0.70);
 backdrop-filter: blur(20px);
 border: 10px solid Black;
-background-image: url(assets/Vector2.svg);
+background-image: url("../../assets/Vector\ 2.svg");
+background-size: cover;
 }
 .nav_loader{
 display: flex;
