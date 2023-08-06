@@ -8,6 +8,10 @@
   font-family: Monoton;
   src: url(../fonts/Monoton-Regular.ttf);
 }
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/Poppins-Regular.ttf);
+}
 #inner-container {
   width: 1218px;
   height: 828px;
@@ -46,4 +50,44 @@
   opacity: 0.35;
   margin-top: 123px;
   margin-left: 68px;
+}
+.akere2 {
+  width: 523px;
+  color: #6e6d73;
+  font-family: Monoton;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.35;
+}
+.akere3 {
+  width: 523px;
+  color: #fff;
+  font-family: Monoton;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.35;
+}
+.header-account {
+  width: 349px;
+  height: 131px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 275;
+  line-height: normal;
+}
+.register-paragraph {
+  width: 392px;
+  color: #242424;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 275;
+  line-height: normal;
 }
