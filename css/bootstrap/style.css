@@ -164,8 +164,8 @@ li a:hover{
 
 
 /*swipper*/
-.container{
-    background-color: #ffffffb3;
+.swiper-container{
+    background-color: #ffffff00;
     position: absolute;
     margin-top: 320px;
     width: 60%;
@@ -186,7 +186,7 @@ font-weight: 300;
 line-height: 137.4%; /* 87.936px */
 letter-spacing: 4.48px;
 }
-.imagen_slider{
+.imagen_slider1{
 
     flex-shrink: 0;
     position: absolute;
@@ -210,16 +210,3 @@ img{
     background-color: transparent;
 }
 
-.slider-wrapper{
-    position: relative;
-    max-width: 48rem;
-    margin: 0 auto;
-}
-.slider{
-    display:flex;
-    aspect-ratio: 16/9;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-
-}

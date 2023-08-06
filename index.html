@@ -8,6 +8,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+<enlace rel="preconnect" href="https://fonts.googleapis.com">
+  <enlace rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <enlace href="https: //fonts.googleapis.com/css2? family= Inter:wght@300 & familia= Karla:peso@300 & display=swap" rel="stylesheet">
+    
   </head>
 
   <body>
@@ -22,7 +26,7 @@
         </div>
           <ol>
         <li><a href="">Sign Up</a></li>
-        <li><a href="">Shop</a></li>
+        <li><a href="shop.html">Shop</a></li>
         <li><a href="">¿About Us?</a></li>
       </ol>
       <form action="" method="get">
@@ -37,17 +41,37 @@
     </div>
     <!-- Fin del nav -->
     <!-- inicio del swipper -->
+    <div class="swiper-container">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide" id="swiper_firs"><p id="swiper1">¨Haz tus compras de forma inteligente¨<p>
+          <div class="imagen_slider1">
+            <img src="assets/Woman buying something online on her phone.svg" alt="" srcset="">
+          </div> 
+        </div>
       </div>
-      
-<!--<script src="main.js"></script>
-    <div class="swiper-wrapper">
-      <div class="swiper-slide">Slide 1</div>
-    </div>
-      <div class="swiper-slide">Slide 2</div>
-      ...
-      <div class="swiper-slide">Slide 100</div>
-    </div>  -->
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
     
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    
+      <!-- If we need scrollbar -->
+      <div class="swiper-scrollbar"></div>
+    </div>
+    <!-- barra lateral de iconos -->
+    <div class="icon_container">
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA9klEQVR4nO3ZoYpCQRiG4fcGZGGbW7Z4L3sjdptr9CZs7j3YtAkebEYNCqLZYNCyiviLYDCOnOPxm/F/YPq8fBwmHHDv6RtoAn1gDewBA7bABlgCU2ACDIEWYj6AP+B4u3joOSGkBswfDLC7I6ECzHJEGCI6OSMMAV/AfwohjQIiDAG9VEIWBUSMELANuOjh9kBevydZ54CQXyJgAadKBCyGDzmEh6jxRco2LujlfvmDaCWcXSohs1RCBqmEdFMJaacSUk8l5KeMkOzJESvgEwEhl42CeYgYX0SNL6LGF1Hji6jxRdT4Imp8ETW+iJoshh+djie7ALDHbWdYsbRZAAAAAElFTkSuQmCC">
+
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEHklEQVR4nO2Za6iNaRTHf4fjcmjGGDMUGYdIPmgaI/PBByHXGWrCwRAfjhkGReM2KbkVR/lAblMMxRch5ZDLiRlKaUaZCTNuoyFKRrl9OGZc5tXSf9fTPvu8t733u1/yr7f2ftd61rPW+zzPuj3wFm8uPgImAxuBOuA6cB94pue+3h0DNgCTgM6kBB2ARcBvgBfzOQcslKzE0RX4EfjXUci++AFgATAC6AG0BcqBZvrdQzRTvBZ44Iw3WVuByiQMaAXUOAY8B/YCXwDNY8izMaOAfZLlAU+AVUAFRUJf4JImewFsK/DX6wbskGyb4w+gDwXGJGcVfgc+oXj4FDjvrM7EQgmeB/wvwetibqGoaCHv52nu7/IVOMc5C9NJHjOdrTY7rpBREmJf5GtKh6nSw57P47jXh/oStrVKje+ly4MoDqYMOK6Bu0kHyuSiPWUG9j8QX2nAHeB90oMPgH+kW1UQs0Xhq2KeQvpQLd0uA039GKvEeCmIsUQoB65Ix7F+jJmzMYP0YpZ0PNIYQ3u5uHrg3QLt6XyDYpMc799TxLfY1q6xNMQsPUz+sDrjhhLMqCgDxgFf+vDUSdfxuYibCxQ3OgJ/Oen5sghj+wO/ACsD+BZItqUxDXBKxCHEhy31xRzFU02I6nKnsogtIeYZLrk/5SLeErFLPBtenauzPpXgskb2+1ons97dyLnIRqX4b+YiPhbxnRhGWBF0MkRZW+O40W+Auw7NPKYd8DBoozGWRjXAMxFtkihoLgcRtkbfpoDmvjsDtI4wZ7nGmc4NkEkSzdqwsKC5J0upu1I2rGEXY6RCbfxW5KaIlRHc5HZHIfPtq50YtDiEEX8DnYiOrn5n5GcRh4YUttap4PZIeDbW+BhhCWBP4mG4ZJzIRVwvovnoIKwQ72ngs4BV25rDiId51v0L/eLIRBGPBgiZr47h2JB1QfY5shRoAPmhzi+yWwPtKfCfz4GvUuQP6yZdz3ZEXmZ0dL0b6Omba6HV8JRh5lLGhOTT3LMuY76YHZT9oo6hMV1LcT1yVTqO8WO09OBPMVrkTRumRSn8Ror5nt8eLAE+lE6B1aGLWg2oDduxKDLKgP1x6qX26qJ4itClxmLn6sJS/kgYKFdc6k5jtXQwdzssrpAJquOfqw+cNGY5bdtvC9F7zaT4m0gGLZ3S24yYWyjBI5wUo9jo55TL9WG6ilFRbEO6A7ucu5gLwMfFmKgYhrRQ7rXfuQepVxfFthdJGmI1/hL1sSxXW657jN4qmiqcW91eSoPsmuAQ8CgrK/4hibv3bEMqdCWW6ZDHfX5VRm2ROxFkJm6m3vBt551VaoO0EkuBg7o0vaUv/VTB7IpWbb1cuzXzEoen53pW92Mwrxm8rM7HuJTkYZHhqR81PmQ3MLWojtG8ewsi4iWu+og0wtj4zAAAAABJRU5ErkJggg==">
+
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADKklEQVR4nO2aTWxNQRTHfxQtKUoUC6HxsSA2EgtrQYOKRoTSjZ34qNKljaQrXwuNRImkCwsaYuH5ShcICxGxsdHPSCkRaSMRi6piZJIjeXmZuW/m3tt5N03/yUle8u793/N/c+bMOec+mMLkxQKgHrgAPAR6gG/AmJj+3C3f6Wt2A1VkBOVAI9AF/AaUp+l7HgMHhSs4ZgMtwOcYztvsE3ASqAglYjswkKKAQusHaidSgF76tgkUUGg3ZOVTxRLgTUARSuw1sDgtETWy3KpE1ic+JEK1pFFVYhsAlsYVUVGicFIRYRYrRbdnwHlVYJfjpFiVUdvmKkIvX28GHFYW63c9NFscCX8BJ4A5wHRgK/AnkJhml9VwLTsOG+7PBRIyVGzjNzoSPbfcXxswxA5ECelyJNlvuX9awP31KKqfcC3FV0f8GM2BhIwD80wO1HuQRMVnlSSCEGJ2mRy46EGgSxcbVgF/Awk5b3LggQfBTouImcDTQCIUcN/kRJ8Hwe2MlDU9JidGPAj0Hlhu4HgWWMiwSciYJ0mngWMtMBpQyE+TkDgO7DHwHC21kC8xiPSsaoWBq62UofUuJtlbYK7hhC+WzgcTzMOUmB74JUq/haanh2WW2u2H4XqdWFbmnTvtMUM7ZxLSmnCZO6ScL8Qy4GZeia9Li82G63RPfhb47vHMc0lLlKhZlD4UTVgjJ/Fey/f517k+r85EMF+yQFIxT4CFxMcij7PMWDSm2RgNWsLHBTscn6H3dOLGysV04Xhd9ogP7jnyN0SR6Pj+kKIYJeF6BdhYRIBuDa46cn4EZhX7RY6lLCTf9Fl1GtggQ4tKGYceAd578DS5LG3NBApJq+ItdxFyKAPOqoh9twVH3MqAw8pil1xFlHn2JSHtlcsG/49NGXBYWV4r6JdNzjiTAadVgfVaWoVIvMxgOFX7ivAZ0IWwa3Ff7OzLgPNKzgnnFGtCh2NreVdeJ5yS4jAtAbrsaErjHxBDBvKvwB3gOLBeWth8zJCpeC5mhzcuVWyDT2othhcygOiU2medwfEoVEpz1ioVbLfwjcqoaURqrZx0dnWGXn8KTBb8A31C/2cT3/wMAAAAAElFTkSuQmCC">
+
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACY0lEQVR4nO2ZPWgUQRTHf2qCORElSoIiiiImQsBOQhCiiE3AKmCRxtLW0k5NmqS1tJVUQQIGUggWghFRQRsrLxKVBCKCAT/RnI4MvAmTze7OXO5ubxbmDw/2uDfvvd/MztsviIqKiopqs/YAE8AiUANUoFaTGseBShrEswCKVHXa0yTMRIrTW2CQcDQoNSXrvGU7LWYQrwO3gY721U+HnEbrGTVWbecsJ2PPgb42QPRJ7rzadO0bugSsOAb8BK4DOwqCuAp8c9T0CbicHNgDPPDYYA+BIy0E6AXmPOs4nBx8D9hrzcR3R5A1YKwFEKPAZ0fuX9aZoTvWHTuAdlgCzsnv08Arj1mZAbqbALAPuOuR7w1wRsactbrYJhC7S+0COuX4ryP4e+B8AxBD0nnycvyTmd8N7JQV+W39vwXEmL44npT/LgLLdSTylZko113EKjAiY44Bj1N8MkHMPjA6CMx6LP1rYMADYkB8XfFmJbfRWoZfLsgmhzpaot6MN+QUSEpv0GvAD89Wn5RqFojWCbnHcc3mI+CoNe4QMO8x7iXQn5G7qSDm/J70aARfpE2PyXGer441KbEpCsTuOO88ZtllH4ELHvlaBqK1H5huAOI+cMAzl2oliNGVnK6SZl9l49cjVQSI1nHgiQfEC+DUNuKrokDM84Nuv39S4umL35RjQwcDYj/R2Q9sH4DhBmOqdoDYjWBajikrSLOlIkhgUnFFApOKKxKYVFyRsq1IrcQXxJrPS+zQpFJMv9va0HiJQW7aDhXPFwqh2QLQlaStyEeTagk+vVVlJbZAREVFRUVRpP4DxLsI91jVkcYAAAAASUVORK5CYII=">
+    </div>
+      </div>
   </div>
   <script src="js/main.js"></script>
   </body>
