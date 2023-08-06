@@ -1,0 +1,80 @@
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/Poppins-Regular.ttf);
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0px;
+  background: var(#f0f0f0, rgba(217, 217, 217, 0.4));
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(10px);
+}
+
+.button-order {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin: 10px;
+}
+
+.button-order p {
+  margin: 20px 10px 0 0;
+}
+
+.button-order button {
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+  color: #ea8713;
+  font-size: 30px;
+  height: 50px;
+  width: 50px;
+}
+
+.list-order {
+  display: flex;
+  flex-direction: row;
+}
+
+.delete-producto {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.list-order {
+  display: flex;
+  margin: 50px;
+}
+
+.div-span {
+  display: flex;
+  justify-content: start;
+  padding-left: 100px;
+}
+
+div.row .producto {
+  display: flex;
+  flex: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  margin: 30px;
+  border-bottom: 4px solid #f0f0f0;
+}
+div.row .producto img {
+  width: 100px;
+  height: 100px;
+}
