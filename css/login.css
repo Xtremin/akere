@@ -91,3 +91,9 @@
   font-weight: 275;
   line-height: normal;
 }
+.icons-list {
+  margin-bottom: 5px;
+}
+.icons-list i {
+  margin-right: 10px;
+}
