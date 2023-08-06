@@ -2,19 +2,14 @@
   font-family: Poppins;
   src: url(../fonts/Poppins-Regular.ttf);
 }
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
 
 html {
   box-sizing: border-box;
   font-size: 16px;
-}
-
-h4{
-font-family: Poppins;
-}
-
-span.your-cart{
-  font-family: Montserrat ;
-  font-size: 1.5rem;
 }
 
 *,
@@ -30,25 +25,48 @@ body {
   backdrop-filter: blur(10px);
 }
 
+article.producto > p{
+  font-size: 1.3rem;
+}
+
+span {
+  font-family: Montserrat;
+}
+span h4 {
+  font-family: Poppins;
+}
+
+span.your-cart {
+  font-family: Poppins;
+  font-size: 1.5rem;
+}
+
+p {
+  font-family: Montserrat;
+}
+
+
+
 .button-order {
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: end;
-  margin: 10px;
+  margin: 30px;
 }
 
 .button-order p {
-  margin: 20px 10px 0 0;
+  margin: 0 10px 0 0;
 }
 
-.button-order button {
-  margin-top: 5px;
-  border: none;
-  border-radius: 5px;
-  color: #ea8713;
-  font-size: 30px;
-  height: 50px;
-  width: 50px;
+.barra-lateral {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 15px;
+}
+.barra-lateral svg {
+  margin: 2px;
 }
 
 .contador {
@@ -62,6 +80,7 @@ body {
   border: none;
   background: transparent;
   margin: 8px;
+  cursor: pointer;
 }
 
 .list-order {
@@ -95,6 +114,7 @@ div.row .producto {
   margin: 25px;
   border-bottom: 4px solid #f0f0f0;
 }
+
 div.row .producto img {
   width: 100px;
   height: 100px;
@@ -112,28 +132,28 @@ div.row .producto img {
   align-items: center;
   margin-left: 150px;
 }
-.back a{
+.back a {
   margin: 15px;
 }
 
-.button-footer{
+.button-footer {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-right: 150px;
 }
 
-.clear{
+.clear {
   margin: 10px;
   width: 80px;
   height: 40px;
   border-radius: 10px;
-  background-color: #EA8713;
+  background-color: #ea8713;
   color: #fff;
   border: none;
 }
 
-.pages{
+.pages {
   margin: 10px;
   width: 80px;
   height: 40px;
@@ -143,6 +163,6 @@ div.row .producto img {
   color: #fff;
 }
 
-.text-arrow{
+.text-arrow {
   font-size: 1.2rem;
 }

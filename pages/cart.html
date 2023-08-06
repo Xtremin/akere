@@ -5,165 +5,226 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/bootstrap/style.css" />
     <link rel="stylesheet" href="../css/style-cart.css" />
+    <link
+      rel="stylesheet"
+      href="../css/animate.min.css"
+    />
     <title>Carrito</title>
   </head>
 
-  <body>
+  <body class="animate__animated animate__fadeInDown">
     <div class="container">
       <div class="button-order">
         <p>To compplete your order click on dots</p>
-        <button>...</button>
+        <a href="#" class="barra-lateral" id="buttonL"
+          ><svg
+            width="11"
+            height="11"
+            viewBox="0 0 11 11"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle cx="5.5" cy="5.5" r="5.5" fill="#EA8713" />
+          </svg>
+          <svg
+            width="11"
+            height="11"
+            viewBox="0 0 11 11"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle cx="5.5" cy="5.5" r="5.5" fill="#EA8713" />
+          </svg>
+          <svg
+            width="11"
+            height="11"
+            viewBox="0 0 11 11"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle cx="5.5" cy="5.5" r="5.5" fill="#EA8713" />
+          </svg>
+        </a>
+       
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="div-span">
+        <span class="your-cart">Your cart</span>
       </div>
 
-      <div class="container">
-        <div class="div-span">
-          <span class="your-cart">Your cart</span>
-        </div>
+      <div class="row ">
+        <article class="producto">
+          <div class="contador">
+            <button>➖</button>
+            <p>2</p>
+            <button>➕</button>
+          </div>
 
-        <div class="row">
-          <article class="producto">
-            <div class="contador">
-              <button>➖</button>
-              <p>2</p>
-              <button>➕</button>
-            </div>
+          <img
+            src="../assets/Rectangle 49.png"
+            alt="Foto del articulo en el carrito"
+          />
 
-            <img
-              src="../assets/Rectangle 49.png"
-              alt="Foto del articulo en el carrito"
-            />
+          <span
+            ><h4>Producto name</h4>
+            <br />Joystick of play 4.white<br />edition from computer</span
+          >
 
-            <span
-              ><h4>Producto name</h4>
-              <br />Joystick of play 4.white<br />edition from computer</span
+          <p>💻</p>
+          <p>💵 15.50</p>
+          <button class="delete-producto">
+            <svg
+              width="13pt"
+              height="13pt"
+              viewBox="0 0 13 13"
+              xmlns="http://www.w3.org/2000/svg"
             >
-
-            <p>💻</p>
-            <p>💵 15.50</p>
-            <button class="delete-producto">
-              <svg
-                width="13pt"
-                height="13pt"
-                viewBox="0 0 13 13"
-                xmlns="http://www.w3.org/2000/svg"
+              <g
+                id="fontsvg1691262931239"
+                stroke-linecap="round"
+                fill-rule="evenodd"
+                fill="#000000"
               >
-                <g
-                  id="fontsvg1691262931239"
-                  stroke-linecap="round"
-                  fill-rule="evenodd"
-                  fill="#000000"
-                >
-                  <path
-                    d="M 12.598 1.787 L 8.086 6.299 L 12.598 10.811 L 10.811 12.598 L 6.299 8.086 L 1.787 12.598 L 0 10.811 L 4.512 6.299 L 0 1.787 L 1.787 0 L 6.299 4.512 L 10.811 0 L 12.598 1.787 Z"
-                    vector-effect="non-scaling-stroke"
-                  />
-                </g>
-              </svg>
-            </button>
-          </article>
+                <path
+                  d="M 12.598 1.787 L 8.086 6.299 L 12.598 10.811 L 10.811 12.598 L 6.299 8.086 L 1.787 12.598 L 0 10.811 L 4.512 6.299 L 0 1.787 L 1.787 0 L 6.299 4.512 L 10.811 0 L 12.598 1.787 Z"
+                  vector-effect="non-scaling-stroke"
+                />
+              </g>
+            </svg>
+          </button>
+        </article>
 
-          <article class="producto">
-            <div class="contador">
-              <button>➖</button>
-              <p>5</p>
-              <button>➕</button>
-            </div>
+        <article class="producto">
+          <div class="contador">
+            <button>➖</button>
+            <p>5</p>
+            <button>➕</button>
+          </div>
 
-            <img
-              src="../assets/Rectangle 50.png"
-              alt="Foto del articulo en el carrito"
-            />
-            <span
-              ><h4>Producto name</h4>
-              <br />Joystick of play 4.white<br />edition from computer</span
+          <img
+            src="../assets/Rectangle 50.png"
+            alt="Foto del articulo en el carrito"
+          />
+          <span
+            ><h4>Producto name</h4>
+            <br />Joystick of play 4.white<br />edition from computer</span
+          >
+
+          <p>💻</p>
+          <p>💵 15.50</p>
+          <button class="delete-producto">
+            <svg
+              width="13pt"
+              height="13pt"
+              viewBox="0 0 13 13"
+              xmlns="http://www.w3.org/2000/svg"
             >
-
-            <p>💻</p>
-            <p>💵 15.50</p>
-            <button class="delete-producto">
-              <svg
-                width="13pt"
-                height="13pt"
-                viewBox="0 0 13 13"
-                xmlns="http://www.w3.org/2000/svg"
+              <g
+                id="fontsvg1691262931239"
+                stroke-linecap="round"
+                fill-rule="evenodd"
+                fill="#000000"
               >
-                <g
-                  id="fontsvg1691262931239"
-                  stroke-linecap="round"
-                  fill-rule="evenodd"
-                  fill="#000000"
-                >
-                  <path
-                    d="M 12.598 1.787 L 8.086 6.299 L 12.598 10.811 L 10.811 12.598 L 6.299 8.086 L 1.787 12.598 L 0 10.811 L 4.512 6.299 L 0 1.787 L 1.787 0 L 6.299 4.512 L 10.811 0 L 12.598 1.787 Z"
-                    vector-effect="non-scaling-stroke"
-                  />
-                </g>
-              </svg>
-            </button>
-          </article>
+                <path
+                  d="M 12.598 1.787 L 8.086 6.299 L 12.598 10.811 L 10.811 12.598 L 6.299 8.086 L 1.787 12.598 L 0 10.811 L 4.512 6.299 L 0 1.787 L 1.787 0 L 6.299 4.512 L 10.811 0 L 12.598 1.787 Z"
+                  vector-effect="non-scaling-stroke"
+                />
+              </g>
+            </svg>
+          </button>
+        </article>
 
-          <article class="producto">
-            <div class="contador">
-              <button>➖</button>
-              <p>10</p>
-              <button>➕</button>
-            </div>
+        <article class="producto">
+          <div class="contador">
+            <button>➖</button>
+            <p>10</p>
+            <button>➕</button>
+          </div>
 
-            <img
-              src="../assets/Rectangle 49.png"
-              alt="Foto del articulo en el carrito"
-            />
-            <span
-              ><h4>Producto name</h4>
-              <br />Joystick of play 4.white<br />edition from computer</span
+          <img
+            src="../assets/Rectangle 49.png"
+            alt="Foto del articulo en el carrito"
+          />
+          <span
+            ><h4>Producto name</h4>
+            <br />Joystick of play 4.white<br />edition from computer</span
+          >
+
+          <p>💻</p>
+          <p>💵 15.50</p>
+          <button class="delete-producto">
+            <svg
+              width="13pt"
+              height="13pt"
+              viewBox="0 0 13 13"
+              xmlns="http://www.w3.org/2000/svg"
             >
-
-            <p>💻</p>
-            <p>💵 15.50</p>
-            <button class="delete-producto">
-              <svg
-                width="13pt"
-                height="13pt"
-                viewBox="0 0 13 13"
-                xmlns="http://www.w3.org/2000/svg"
+              <g
+                id="fontsvg1691262931239"
+                stroke-linecap="round"
+                fill-rule="evenodd"
+                fill="#000000"
               >
-                <g
-                  id="fontsvg1691262931239"
-                  stroke-linecap="round"
-                  fill-rule="evenodd"
-                  fill="#000000"
-                >
-                  <path
-                    d="M 12.598 1.787 L 8.086 6.299 L 12.598 10.811 L 10.811 12.598 L 6.299 8.086 L 1.787 12.598 L 0 10.811 L 4.512 6.299 L 0 1.787 L 1.787 0 L 6.299 4.512 L 10.811 0 L 12.598 1.787 Z"
-                    vector-effect="non-scaling-stroke"
-                  />
-                </g>
-              </svg>
-            </button>
-          </article>
-        </div>
+                <path
+                  d="M 12.598 1.787 L 8.086 6.299 L 12.598 10.811 L 10.811 12.598 L 6.299 8.086 L 1.787 12.598 L 0 10.811 L 4.512 6.299 L 0 1.787 L 1.787 0 L 6.299 4.512 L 10.811 0 L 12.598 1.787 Z"
+                  vector-effect="non-scaling-stroke"
+                />
+              </g>
+            </svg>
+          </button>
+        </article>
+      </div>
 
-        <div class="footer">
-          <div class="back">
-            <a href="../shop.html"><svg width="42" height="60" viewBox="0 0 42 60" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-              <rect width="42" height="60" fill="url(#pattern0)"/>
+      <div class="footer">
+        <div class="back">
+          <a href="../shop.html"
+            ><svg
+              width="42"
+              height="60"
+              viewBox="0 0 42 60"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <rect width="42" height="60" fill="url(#pattern0)" />
               <defs>
-              <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-              <use xlink:href="#image0_385_411" transform="matrix(0.0166667 0 0 0.0116667 0 0.15)"/>
-              </pattern>
-              <image id="image0_385_411" width="60" height="60" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAqElEQVR4nO3YwQrCMBBF0ft5urEqCVnotysoWMFPqFApdCXpUtTJPTD7vM4LhIIkSZIkSZJgB/TAA0jRP0gBBmCcZwrdTNgRuNNQ2AHYE1CuhH0CBwLKhsXN/r1sjYlZ421lsxHmDKxrgfsfONyn5mpg4lb6BKyW7nFaeFUdCSwZGjcdVrLetFHvsvADoKOx0BeCK2+hbzSgmx/k03Y33z6MJEmSJEmSXn+eQkekEP3VAAAAAElFTkSuQmCC"/>
+                <pattern
+                  id="pattern0"
+                  patternContentUnits="objectBoundingBox"
+                  width="1"
+                  height="1"
+                >
+                  <use
+                    xlink:href="#image0_385_411"
+                    transform="matrix(0.0166667 0 0 0.0116667 0 0.15)"
+                  />
+                </pattern>
+                <image
+                  id="image0_385_411"
+                  width="60"
+                  height="60"
+                  xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAqElEQVR4nO3YwQrCMBBF0ft5urEqCVnotysoWMFPqFApdCXpUtTJPTD7vM4LhIIkSZIkSZJgB/TAA0jRP0gBBmCcZwrdTNgRuNNQ2AHYE1CuhH0CBwLKhsXN/r1sjYlZ421lsxHmDKxrgfsfONyn5mpg4lb6BKyW7nFaeFUdCSwZGjcdVrLetFHvsvADoKOx0BeCK2+hbzSgmx/k03Y33z6MJEmSJEmSXn+eQkekEP3VAAAAAElFTkSuQmCC"
+                />
               </defs>
-              </svg>
-              </a>
-            <p class="text-arrow">Continue shoping</p>
-          </div>
+            </svg>
+          </a>
+          <p class="text-arrow">Continue shoping</p>
+        </div>
 
-          <div class="button-footer">
-            <button class="clear">Clear</button>
-            <button class="pages">💵 46,5</button>
-          </div>
+        <div class="button-footer">
+          <button class="clear">Clear</button>
+          <button class="pages">💵 46,5</button>
         </div>
       </div>
     </div>
+
+
+
+    
+
+
+      <script src="../js/cart.js"></script>
   </body>
 </html>
