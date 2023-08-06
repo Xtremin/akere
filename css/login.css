@@ -1,0 +1,49 @@
+#login-container {
+  width: 1440px;
+  height: 1024px;
+  padding: 98px 111px 98px 111px;
+  background: #d5f2f8;
+}
+@font-face {
+  font-family: Monoton;
+  src: url(../fonts/Monoton-Regular.ttf);
+}
+#inner-container {
+  width: 1218px;
+  height: 828px;
+  flex-shrink: 0;
+}
+.inner-row {
+  width: 1218px;
+  height: 828px;
+  flex-shrink: 0;
+}
+.heading-section {
+  border: 10px solid #000;
+  border-right: 0px;
+  background: linear-gradient(
+    137deg,
+    rgba(217, 217, 217, 0.4) 0%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
+  box-shadow: 10px 10px 24px 0px rgba(166, 180, 200, 0.7);
+  backdrop-filter: blur(5px);
+}
+.form-section {
+  border: 1px solid rgba(255, 255, 255, 0.17);
+  background: rgba(202, 188, 188, 0.22);
+  box-shadow: 10px 10px 24px 0px rgba(166, 180, 200, 0.7);
+  backdrop-filter: blur(13px);
+}
+.akere1 {
+  font-family: Monoton;
+  width: 435px;
+  color: #000;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.35;
+  margin-top: 123px;
+  margin-left: 68px;
+}
