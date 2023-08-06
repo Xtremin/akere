@@ -25,7 +25,7 @@ body {
   backdrop-filter: blur(10px);
 }
 
-article.producto > p{
+article.producto > p {
   font-size: 1.3rem;
 }
 
@@ -44,8 +44,6 @@ span.your-cart {
 p {
   font-family: Montserrat;
 }
-
-
 
 .button-order {
   display: flex;
@@ -165,4 +163,24 @@ div.row .producto img {
 
 .text-arrow {
   font-size: 1.2rem;
+}
+
+/* Style Barra lateral*/
+
+.barra-order {
+  display: none;
+}
+
+.barra-order.active {
+  display: flex;
+  position: absolute;
+  height: 100vw;
+  min-width: 600px;
+  right: 0;
+  background-color: aquamarine;
+  color: #000;
+}
+
+.barra-order.active p {
+  margin: 0;
 }
