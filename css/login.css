@@ -9,8 +9,12 @@
   src: url(../fonts/Monoton-Regular.ttf);
 }
 @font-face {
+  font-family: Monserrat;
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
   font-family: Poppins;
-  src: url(../fonts/Poppins-Regular.ttf);
+  src: url(../fonts/Poppins-Thin.ttf);
 }
 #inner-container {
   width: 1218px;
@@ -96,4 +100,47 @@
 }
 .icons-list i {
   margin-right: 10px;
+}
+.form-header {
+  color: black;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#signup-form input {
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.35);
+  border-radius: 0%;
+  background: transparent;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 275;
+  line-height: normal;
+  letter-spacing: 1.12px;
+}
+#signup-form input:focus {
+  box-shadow: 10px 10px 24px 0px rgba(166, 180, 200, 0.7);
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+}
+#signup-form label {
+  width: 174px;
+  height: 33px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 275;
+  line-height: normal;
+}
+#signup-form button {
+  color: black;
+  font-family: Monserrat;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.35);
+  background: rgba(255, 255, 255, 0.35);
 }
